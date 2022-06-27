@@ -11,9 +11,9 @@ class TaskData(
     val taskObserver: String? = null,
     val taskStatementTime : String,
     val taskEpic: EpicTaskData? = null, // todo Возможно стоит string-ом
-    val taskTags: ArrayList<String>? = null,
-    val taskRelated : ArrayList<TaskData>? = null,
-    val taskComment : ArrayList<CommentTask>? = null
+    var taskTags: ArrayList<String>? = null,
+    var taskRelated : ArrayList<TaskData>? = null,
+    var taskComment : ArrayList<CommentTask>? = null
     ) {
 
 
